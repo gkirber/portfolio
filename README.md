@@ -2,9 +2,19 @@
 
 Modern portfolio website created with the latest web technologies.
 
+---
+
+## 🌐 Live Demo
+
+👉 [iuriirebryk.com](https://www.iuriirebryk.com/)
+
+---
+
 ## 🚀 Technologies
 
+<br>
 <div align="center">
+
 
 ![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -15,12 +25,6 @@ Modern portfolio website created with the latest web technologies.
 
 </div>
 
-- **[Next.js 15](https://nextjs.org/)** - React framework with Turbopack
-- **[React 19](https://react.dev/)** - Library for building UI
-- **[TypeScript](https://www.typescriptlang.org/)** - Typed JavaScript superset
-- **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS framework
-- **[Lucide React](https://lucide.dev/)** - Beautiful icons
-- **[pnpm](https://pnpm.io/)** - Fast package manager
 
 ## ✨ Features
 
@@ -147,6 +151,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## 📧 Contact
 
 - Email: george.kirber@gmail.com
-- WWW: [Iurii Rebryk](https://www.iuriirebryk.com)
+- WWW: [iuriirebryk.com](https://www.iuriirebryk.com)
 - GitHub: [gkirber](https://github.com/gkirber)
 - LinkedIn: [Iurii Rebryk](https://www.linkedin.com/in/iurii-rebryk)

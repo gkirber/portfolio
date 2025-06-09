@@ -6,7 +6,7 @@ export default function Home() {
         <div className='text-center'>
           <div>
             <h1 className='text-4xl md:text-6xl font-bold mb-6 animate-fade-in'>
-              Hi, I'm <span className='text-blue-600'>Iurii Rebryk</span>
+              Hi, I&apos;m <span className='text-blue-600'>Iurii Rebryk</span>
             </h1>
             <p className='text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto animate-slide-up'>
               Frontend Developer who creates modern and intuitive web
@@ -90,7 +90,7 @@ export default function Home() {
             My Projects
           </h2>
           <p className='text-center text-gray-600 mb-12'>
-            Here are some of the projects I've worked on
+            Here are some of the projects I&apos;ve worked on
           </p>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {[1, 2, 3].map(project => (
@@ -163,7 +163,7 @@ export default function Home() {
         <div className='max-w-4xl mx-auto px-4 text-center'>
           <h2 className='text-3xl md:text-4xl font-bold mb-4'>Get In Touch</h2>
           <p className='text-gray-600 mb-8'>
-            Ready to work together? Let's make something amazing!
+            Ready to work together? Let&apos;s make something amazing!
           </p>
           <a
             href='mailto:hello@example.com'
