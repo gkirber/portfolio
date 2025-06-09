@@ -39,23 +39,23 @@ export const ThemeToggle = () => {
   const getLabel = () => {
     switch (theme) {
       case 'light':
-        return 'Світла тема'
+        return 'Light theme'
       case 'dark':
-        return 'Темна тема'
+        return 'Dark theme'
       case 'system':
-        return 'Системна тема'
+        return 'System theme'
       default:
-        return 'Переключити тему'
+        return 'Toggle theme'
     }
   }
 
-  // Показуємо placeholder під час SSR
+  // Show placeholder during SSR
   if (!mounted) {
     return (
       <Button
         variant='ghost'
         size='sm'
-        aria-label='Завантаження теми...'
+        aria-label='Loading theme...'
         className='h-9 w-9 p-0'
         disabled
       >

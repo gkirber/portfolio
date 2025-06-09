@@ -5,11 +5,11 @@ import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 const navigationItems = [
-  { name: 'Головна', href: '#home' },
-  { name: 'Про мене', href: '#about' },
-  { name: 'Проекти', href: '#projects' },
-  { name: 'Навички', href: '#skills' },
-  { name: 'Контакти', href: '#contact' },
+  { name: 'Home', href: '#home' },
+  { name: 'About', href: '#about' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 export const SimpleNavigation = () => {
@@ -58,7 +58,7 @@ export const SimpleNavigation = () => {
           <div className='md:hidden'>
             <button
               onClick={handleToggle}
-              aria-label='Відкрити меню'
+              aria-label='Open menu'
               className='text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white p-2 rounded-md'
             >
               {isOpen ? (

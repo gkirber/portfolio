@@ -1,141 +1,141 @@
 # Portfolio Website 🌟
 
-Сучасний портфоліо-сайт, створений з використанням найновіших веб-технологій.
+Modern portfolio website created with the latest web technologies.
 
-## 🚀 Технології
+## 🚀 Technologies
 
-- **[Next.js 15](https://nextjs.org/)** - React фреймворк з Turbopack
-- **[React 19](https://react.dev/)** - Бібліотека для створення UI
-- **[TypeScript](https://www.typescriptlang.org/)** - Типізована надбудова JavaScript
-- **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS фреймворк
-- **[Lucide React](https://lucide.dev/)** - Іконки
-- **[pnpm](https://pnpm.io/)** - Швидкий менеджер пакетів
+- **[Next.js 15](https://nextjs.org/)** - React framework with Turbopack
+- **[React 19](https://react.dev/)** - Library for building UI
+- **[TypeScript](https://www.typescriptlang.org/)** - Typed JavaScript superset
+- **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Lucide React](https://lucide.dev/)** - Beautiful icons
+- **[pnpm](https://pnpm.io/)** - Fast package manager
 
-## ✨ Особливості
+## ✨ Features
 
-- 🎨 Сучасний, респонсивний дизайн
-- 🌙 Підтримка темної/світлої теми
-- ⚡ Швидка збірка з Turbopack
-- 📱 Мобільна адаптація
-- ♿ Доступність (a11y)
-- 🎯 SEO оптимізація
-- 🔧 TypeScript для надійності коду
+- 🎨 Modern, responsive design
+- 🌙 Dark/light theme support
+- ⚡ Fast builds with Turbopack
+- 📱 Mobile responsive
+- ♿ Accessibility (a11y)
+- 🎯 SEO optimized
+- 🔧 TypeScript for code reliability
 
-## 🛠 Встановлення
+## 🛠 Installation
 
-1. Клонуйте репозиторій:
+1. Clone the repository:
 
 ```bash
 git clone <your-repo-url>
 cd portfolio
 ```
 
-2. Встановіть залежності:
+2. Install dependencies:
 
 ```bash
 pnpm install
 ```
 
-3. Запустіть dev сервер:
+3. Run the dev server:
 
 ```bash
 pnpm dev
 ```
 
-Відкрийте [http://localhost:3000](http://localhost:3000) у браузері.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📝 Доступні скрипти
+## 📝 Available Scripts
 
 ```bash
-# Розробка
-pnpm dev          # Запуск dev сервера з Turbopack
+# Development
+pnpm dev          # Start dev server with Turbopack
 
-# Збірка
-pnpm build        # Створення production збірки
-pnpm start        # Запуск production сервера
+# Build
+pnpm build        # Create production build
+pnpm start        # Start production server
 
-# Якість коду
-pnpm lint         # Запуск ESLint
-pnpm lint:fix     # Виправлення помилок ESLint
-pnpm type-check   # Перевірка типів TypeScript
-pnpm format       # Форматування коду з Prettier
-pnpm format:check # Перевірка форматування
+# Code Quality
+pnpm lint         # Run ESLint
+pnpm lint:fix     # Fix ESLint errors
+pnpm type-check   # Check TypeScript types
+pnpm format       # Format code with Prettier
+pnpm format:check # Check code formatting
 ```
 
-## 🏗 Структура проекту
+## 🏗 Project Structure
 
 ```
 portfolio/
 ├── app/                    # Next.js App Router
-│   ├── components/         # React компоненти
-│   │   ├── ui/            # UI компоненти
+│   ├── components/         # React components
+│   │   ├── ui/            # UI components
 │   │   └── ...
-│   ├── globals.css        # Глобальні стилі
-│   ├── layout.tsx         # Основний layout
-│   └── page.tsx           # Головна сторінка
-├── lib/                   # Утилітарні функції
-├── types/                 # TypeScript типи
-├── public/                # Статичні файли
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Main layout
+│   └── page.tsx           # Home page
+├── lib/                   # Utility functions
+├── types/                 # TypeScript types
+├── public/                # Static files
 └── ...
 ```
 
-## 🎨 Кастомізація
+## 🎨 Customization
 
-### Теми
+### Themes
 
-Проект підтримує світлу, темну та системну теми. Налаштування знаходяться в:
+The project supports light, dark, and system themes. Configuration can be found in:
 
 - `app/components/ThemeProvider.tsx`
 - `app/globals.css`
 
-### Стилі
+### Styles
 
-Використовується Tailwind CSS v4 з кастомними CSS змінними для дизайн-системи.
+Uses Tailwind CSS v4 with custom CSS variables for the design system.
 
-### Компоненти
+### Components
 
-Всі UI компоненти знаходяться в `app/components/ui/` та можуть бути легко кастомізовані.
+All UI components are located in `app/components/ui/` and can be easily customized.
 
-## 📱 Секції сайту
+## 📱 Website Sections
 
-- **Hero** - Привітання та основна інформація
-- **About** - Про мене та навички
-- **Projects** - Портфоліо проектів
-- **Skills** - Технічні навички
-- **Contact** - Контактна інформація
+- **Hero** - Welcome and main information
+- **About** - About me and skills
+- **Projects** - Portfolio projects
+- **Skills** - Technical skills
+- **Contact** - Contact information
 
-## 🚀 Деплоймент
+## 🚀 Deployment
 
-### Vercel (рекомендовано)
+### Vercel (Recommended)
 
 ```bash
-# Встановіть Vercel CLI
+# Install Vercel CLI
 npm i -g vercel
 
-# Деплой
+# Deploy
 vercel
 ```
 
-### Інші платформи
+### Other Platforms
 
-Проект підтримує деплоймент на будь-якій платформі, що підтримує Node.js:
+The project supports deployment on any platform that supports Node.js:
 
 - Netlify
 - Railway
 - Digital Ocean
 - AWS
 
-## 🤝 Внесок
+## 🤝 Contributing
 
-Будь ласка, відкривайте Issues або Pull Requests для покращення проекту.
+Please open Issues or Pull Requests to improve the project.
 
-## 📄 Ліцензія
+## 📄 License
 
-MIT License - дивіться [LICENSE](LICENSE) файл для деталей.
+MIT License - see [LICENSE](LICENSE) file for details.
 
-## 📧 Контакт
+## 📧 Contact
 
-**Юрій Ребрик**
+**Iurii Rebryk**
 
 - Email: your.email@example.com
 - GitHub: [@yourusername](https://github.com/yourusername)
@@ -143,4 +143,4 @@ MIT License - дивіться [LICENSE](LICENSE) файл для деталей
 
 ---
 
-Зроблено з ❤️ та Next.js
+Made with ❤️ and Next.js
