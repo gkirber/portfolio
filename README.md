@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website 🌟
 
-## Getting Started
+Сучасний портфоліо-сайт, створений з використанням найновіших веб-технологій.
 
-First, run the development server:
+## 🚀 Технології
+
+- **[Next.js 15](https://nextjs.org/)** - React фреймворк з Turbopack
+- **[React 19](https://react.dev/)** - Бібліотека для створення UI
+- **[TypeScript](https://www.typescriptlang.org/)** - Типізована надбудова JavaScript
+- **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS фреймворк
+- **[Lucide React](https://lucide.dev/)** - Іконки
+- **[pnpm](https://pnpm.io/)** - Швидкий менеджер пакетів
+
+## ✨ Особливості
+
+- 🎨 Сучасний, респонсивний дизайн
+- 🌙 Підтримка темної/світлої теми
+- ⚡ Швидка збірка з Turbopack
+- 📱 Мобільна адаптація
+- ♿ Доступність (a11y)
+- 🎯 SEO оптимізація
+- 🔧 TypeScript для надійності коду
+
+## 🛠 Встановлення
+
+1. Клонуйте репозиторій:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Встановіть залежності:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Запустіть dev сервер:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Відкрийте [http://localhost:3000](http://localhost:3000) у браузері.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Доступні скрипти
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Розробка
+pnpm dev          # Запуск dev сервера з Turbopack
 
-## Deploy on Vercel
+# Збірка
+pnpm build        # Створення production збірки
+pnpm start        # Запуск production сервера
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Якість коду
+pnpm lint         # Запуск ESLint
+pnpm lint:fix     # Виправлення помилок ESLint
+pnpm type-check   # Перевірка типів TypeScript
+pnpm format       # Форматування коду з Prettier
+pnpm format:check # Перевірка форматування
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏗 Структура проекту
+
+```
+portfolio/
+├── app/                    # Next.js App Router
+│   ├── components/         # React компоненти
+│   │   ├── ui/            # UI компоненти
+│   │   └── ...
+│   ├── globals.css        # Глобальні стилі
+│   ├── layout.tsx         # Основний layout
+│   └── page.tsx           # Головна сторінка
+├── lib/                   # Утилітарні функції
+├── types/                 # TypeScript типи
+├── public/                # Статичні файли
+└── ...
+```
+
+## 🎨 Кастомізація
+
+### Теми
+
+Проект підтримує світлу, темну та системну теми. Налаштування знаходяться в:
+
+- `app/components/ThemeProvider.tsx`
+- `app/globals.css`
+
+### Стилі
+
+Використовується Tailwind CSS v4 з кастомними CSS змінними для дизайн-системи.
+
+### Компоненти
+
+Всі UI компоненти знаходяться в `app/components/ui/` та можуть бути легко кастомізовані.
+
+## 📱 Секції сайту
+
+- **Hero** - Привітання та основна інформація
+- **About** - Про мене та навички
+- **Projects** - Портфоліо проектів
+- **Skills** - Технічні навички
+- **Contact** - Контактна інформація
+
+## 🚀 Деплоймент
+
+### Vercel (рекомендовано)
+
+```bash
+# Встановіть Vercel CLI
+npm i -g vercel
+
+# Деплой
+vercel
+```
+
+### Інші платформи
+
+Проект підтримує деплоймент на будь-якій платформі, що підтримує Node.js:
+
+- Netlify
+- Railway
+- Digital Ocean
+- AWS
+
+## 🤝 Внесок
+
+Будь ласка, відкривайте Issues або Pull Requests для покращення проекту.
+
+## 📄 Ліцензія
+
+MIT License - дивіться [LICENSE](LICENSE) файл для деталей.
+
+## 📧 Контакт
+
+**Юрій Ребрик**
+
+- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/yourusername)
+- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+
+---
+
+Зроблено з ❤️ та Next.js
