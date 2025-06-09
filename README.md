@@ -4,6 +4,17 @@ Modern portfolio website created with the latest web technologies.
 
 ## 🚀 Technologies
 
+<div align="center">
+
+![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS%20v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide%20Icons-F56565?style=for-the-badge&logo=lucide&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+
+</div>
+
 - **[Next.js 15](https://nextjs.org/)** - React framework with Turbopack
 - **[React 19](https://react.dev/)** - Library for building UI
 - **[TypeScript](https://www.typescriptlang.org/)** - Typed JavaScript superset
@@ -135,12 +146,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
-**Iurii Rebryk**
-
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-
----
-
-Made with ❤️ and Next.js
+- Email: george.kirber@gmail.com
+- WWW: [Iurii Rebryk](https://www.iuriirebryk.com)
+- GitHub: [gkirber](https://github.com/gkirber)
+- LinkedIn: [Iurii Rebryk](https://www.linkedin.com/in/iurii-rebryk)
